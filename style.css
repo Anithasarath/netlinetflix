@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+.showcase-top img{
+    /* parrent class-position:absolute; */
+    position: absolute;
+    width: 180px;
+    margin-top: 5px;
+     margin-left: 100px;   
+     
+     }
+.showcase{ 
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    /* child class-position:relative; */
+     height: 100vh; 
+     position: relative; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+
+    /* filter: brightness(50%); */
+      box-shadow: -900px -200px 333px 148px rgba(0,0,0,0.75) inset;
+
+ } 
+ 
+.showcase-content{
+position:absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 170px;
+margin-left: 200px;
+
+
+}
+.showcase-top{
+    z-index: 1;
+}
+.sign{ 
+     background-color:#e50914; 
+     color: white; 
+     border:0; 
+    /* 8px top bottom ,20px left right */
+     padding: 8px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+     text-align: center; 
+    /* child class position-absolute */
+  position: absolute;  
+  right: 0;   
+ margin-top: 40px;  
+ margin-right: 160px; 
+ font-size: 15px;
+ font-weight: bold;
+ /* top:50%; */ */
+/* transform: translate(-50%,-50%); */
+
+ } 
+.eng{
+    margin-left: 950px;
+    margin-top: 5px;
+    padding: 2px 2px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-right: 270px;
+    background-color:transparent; 
+    color: white;
+    border: 1px solid white;
+    
+    
+    
+
+}
+.eng:hover{
+    opacity: 0.7;
+}
+.sign:hover{
+    opacity: 0.7;
+}
+.showcase-content h1{
+color: white;
+text-align: center;
+font-size: 50px;
+ /* filter: brightness(150%);  */
+margin-bottom: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.5;
+}
+.showcase p{
+    
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.email{
+    height: 40px;
+    /* background-color: transparent; */
+     background-color:rgb(48, 44, 44); 
+    border: 1px solid wheat;
+    width: 350px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 4px;
+     opacity: 0.7; 
+    
+}
+.a ::placeholder{
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 5px;
+     /* font-weight: bold;  */
+}
+.showcase::after{
+    background-color: black;
+    content: "";
+}
+.btn{
+    background-color:#e50914;
+    color: white;
+    border:0;
+    font-size: 22px;
+    padding: 17px 22px;
+    border-radius: 5px;
+    cursor: pointer;  
+    margin-left: 3px;  
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.foot{
+    background-color: black;
+    color:gray;
+    line-height: 3;
+height: 60vh;
+}
+/*  
+.sub1 ul li a{
+    color: white;
+}
+*/
+
+.footcolum ul li a{
+color: grey;
+
+
+}
+.footcolum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+
+}
+.footcolum ul li{
+    list-style-type: none;
+}
+.foot p{
+margin-top: 5px;
+margin-left: 15px;
+
+}
+/* .second {
+background-color:black;
+    width: auto;
+    height: 90vh;
+margin-top: 5px;
+display: flex;
+flex-direction: column;
+}*/
+.maindiv{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+      /* margin-top: 5px;  */
+    width: auto;
+    border-top: 5px solid gray;
+
+    
+} 
+
+.pic img{
+     height: 50vh; 
+     width: 540px; 
+    display: flex;
+    padding-right: 140px;
+    padding-bottom: 10px; 
+    
+    
+
+}
+.text h1{
+    font-size: 50px;
+    color:white;
+    margin-left: 140px;
+    line-height: 2;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-size: 25px;
+    margin-left: 140px;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    /* font-weight: bold;  */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  
+.head h1 {
+    color: white;
+    text-align: justify;
+    line-height: 2;
+    margin-right: 830px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head p{
+    color: white;
+    text-align: justify;
+    line-height: 1;
+    margin-right: 830px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: bold; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}*/
+
+/* second */
+.second div{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* margin-top: 5px; */
+    width: auto;
+    border-top: 5px solid gray;
+    
+    
+} 
+
+.SA img{
+     height: 50vh; 
+     width: 340px; 
+     float: left;   
+     padding-left: 160px;
+    
+ } 
+.middle h1{
+    font-size: 50px;
+    color:white;
+    margin-right: 260px; 
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.middle p{
+    font-size: 25px;
+     margin-right: 260px; 
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;   
+    
+}
+
+
+/* third */
+
+.thirddiv{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    /* margin-top: 5px; */
+    width: auto;
+    border-top: 5px solid gray; 
+} 
+
+.third img{
+     height: 50vh; 
+     width: 540px; 
+    display: flex;
+    padding-right: 100px;
+    padding-bottom: 10px; 
+    
+    
+
+}
+.As h1{
+    font-size: 50px;
+    color:white;
+    margin-left: 140px;
+    line-height: 2;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.As p{
+    font-size: 25px;
+    margin-left: 140px;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* four */
+
+.fourthdiv{
+    background-color: black;
+    color: white;
+     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    /* margin-top: 5px; */
+    width: auto;
+    border-top: 5px solid gray;
+} 
+
+.kid img{
+     height: 50vh; 
+     width: 500px;  
+     padding-left: 180px; 
+     padding-bottom: 10px;  
+          }
+.four h1{
+    font-size: 40px;
+    color:white;
+    margin-right: 160px; 
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.four p{
+    
+    font-size: 25px;
+     margin-right: 140px; 
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* fifth */
+.fifthdiv{
+    height: 148vh;
+    width: auto;
+     background-color: black; 
+    /* margin-top: 5px; */
+    border-top: 5px solid gray;
+}
+.tit h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.jj{
+    background-color:rgb(44, 42, 42);
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    width: 1050px;
+    margin-left: 190px;
+    padding-top: 40px;
+    margin-top: 20px;
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.jj:hover{
+opacity: 0.5;
+}
+
+
+
+
+
+
+
+  /*  
+.sh dd{
+    margin-top: 13px;
+    padding-left: 20px;
+}
+
+*/
+.vv p{
+    
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.vv {
+    position:absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 80px;
+margin-left: 380px;
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
